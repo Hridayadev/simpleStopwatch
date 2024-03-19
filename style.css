@@ -1,0 +1,31 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    text-align: center;
+    margin-top: 100px;
+}
+h1 {
+    font-size: 3em;
+    color: #333;
+    margin-top: 2rem;
+}
+.btn button {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.btn button:hover {
+    background-color: #45a049;
+}
+.btn button:active {
+    background-color: #3e8e41;
+}
